@@ -2,6 +2,9 @@
 # The line below needs to be executed in the Terminal before runing the python file: 
 # export GOOGLE_APPLICATION_CREDENTIALS= "/Users/nhathiep/Python_Projects/SQL connectors/proud-outrider-337507-319bec3fd79c.json"
 
+# In terminal, change directory (cd) to '/Users/nhathiep/Python_Projects/SQL connectors/'
+# Then execute this py file: python3 bigquery_test.py
+
 from google.cloud import bigquery
 client = bigquery.Client()
 
