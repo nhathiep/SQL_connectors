@@ -1,0 +1,7 @@
+SELECT  * 
+FROM `bigquery-public-data.covid19_open_data.covid19_open_data` as tb
+WHERE tb.country_code = 'AUS'
+AND tb.location_key = 'AU-NSW'
+AND DATE = "2022-01-07"
+-- AND DATE BETWEEN "2022-01-07" AND CURRENT_DATE()
+LIMIT 10
